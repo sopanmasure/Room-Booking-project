@@ -1,0 +1,40 @@
+.main
+{
+    margin-bottom: 135px;
+}
+.main p
+{
+    text-align: center;
+    font-size: 25px;
+    color: #294a70;
+}
+.img-logo
+{
+    margin: 70px 0 50px 0;
+}
+.main_content
+{
+    display: flex;
+    justify-content: center;
+}
+.main_content .main-btn
+{
+    /* border: 1px solid #294a70; */
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #294a70;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 20px;
+    color: #294a70;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.main_content .main-btn:hover
+{
+    background-color: #294a70;
+    color: #fff;
+    transform: all 0.5s ease;
+}

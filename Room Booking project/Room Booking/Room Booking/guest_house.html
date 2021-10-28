@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/guest-room.css">
+
+    <!-- <title>Hello, world!</title> -->
+  </head>
+  <body>
+    <!-- header start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light px-4"
+      style="background-color: #294a70"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1 text-white" href="#">Room Booking</a>
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 text-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="home.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="guest_house.html"
+                >GUEST HOUSE</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="hostel_room.html"
+                >HOSTEL ROOM</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="RoomOnRent/index.html"
+                >ROOM ON RENT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">CONTACT</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link text-white" href="faq.html">FAQ</a>
+              </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- main start -->
+    <div class="main">
+      <div class="main-heading">
+        <div class="heading">
+          <h1>Anandvan Guest House</h1>
+        </div>
+        <!-- <div class="logo">
+      <img src="Images/Batu-Logo-Transperent-New.png" alt="">
+    </div> -->
+        <!-- <div class="readmore">
+
+    </div> -->
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Images/guest-house1 (1).jpeg"
+              class="d-block w-100"
+              alt="..."
+              style="height: 500px"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Images/guest-house1 (2).jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Images/guest-house1 (3).jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="guest-houseinfo">
+        <p>
+          - Dbatu Guest house is accomodation provided by college for guests and
+          officials. - Guest house located near diploma college. - Guests can
+          register through following portal for online booking.<span id="dots"
+            >...</span
+          ><span id="more">
+            <br /><b>Features</b> - Guest house has common launge, garden and
+            equiped with adequate facilities. - Guests can choose single rooms
+            ac/non ac as per requirements. - Transportation facility is also
+            available.<br /><b>Requirement</b> Indiviual has to apply for rooms
+            through online or offline method as per
+          </span>
+        </p>
+
+        <!-- <button onclick="myFunction()" id="myBtn">Read more</button> -->
+      </div>
+      <div class="button-div">
+        <!-- <button id="read" style="width: 100px; height: 100px;">Read More</button> -->
+        <!-- <input type="submit" value="Read More">  -->
+        <!-- <input type="button" value="Read More"> -->
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+        <a href="form.html" class="btn-book">Book</a>
+      </div>
+    </div>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="text-center text-lg-start" style="background-color: #294a70">
+      <!-- Copyright -->
+      <div class="text-center p-3">
+        <p class="text-white fs-5">Copyright© 2021-2022.All rights reserved.</p>
+        <a
+          class="text-white text-decoration-none fs-5"
+          href="https://dbatu.ac.in/"
+          >Dr.Babasaheb Ambedkar Technological University , Lonere</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- footer end -->
+
+    <script>
+      function myFunction() { var dots = document.getElementById("dots"); var
+    moreText = document.getElementById("more"); var btnText =
+    document.getElementById("myBtn"); if (dots.style.display === "none") {
+    dots.style.display = "inline"; btnText.innerHTML = "Read more";
+    moreText.style.display = "none"; } else { dots.style.display = "none";
+    btnText.innerHTML = "Read less"; moreText.style.display = "inline"; } }
+    </script>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

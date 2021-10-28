@@ -1,0 +1,36 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    height: 100vh;
+}
+ .navbar-collapse ul li a:hover
+{
+    color:#ffab1f !important; 
+    transition: 0.5s;
+}
+.navbar-toggler:focus
+{
+    color: #fff !important;
+    /* background: #fff !important; */
+}
+/* .navbar-toggler .navbar-toggler-icon 
+{
+    color: #fff !important;
+} */
+
+/* .navbar-toggler
+{
+    border: #fff !important;
+    color: #fff !important;
+} */
+
+.navbar .navbar-toggler
+{
+    color: #fff !important;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
